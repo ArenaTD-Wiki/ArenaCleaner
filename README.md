@@ -24,3 +24,7 @@ You don't need to care about that annoying sidebar, and the silly ads. Just read
 3. Save your edits. <br> 
 4. Press Ctrl-Shift-R, ⌘-Shift-R on a Mac, to bypass cache.<br> 
 5. You should see the new look.<br> 
+
+#Removal 
+
+Simply delete the code you copied into your Global/Local CSS, and save.
