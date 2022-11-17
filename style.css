@@ -1,0 +1,69 @@
+.ad-slot-placeholder,
+.top-ads-container {
+    display: none !important;
+}
+
+#mixed-content-footer,
+    .wds-global-footer,
+    #WikiaBarWrapper,
+    .wds-global-navigation__content-bar-left,
+    .global-navigation,
+    .fandom-sticky-header,
+    .gpt-ad,
+    .ad-slot-placeholder.top-leaderboard.is-loading,
+    .page__right-rail,
+    .search-modal::before,
+    form[class^="SearchInput-module_form__"] .wds-icon,
+    .notifications-placeholder,
+    .top-ads-container,
+    .instant-suggestion,
+    .unified-search__result.marketplace {
+        display: none;
+    }
+
+    .main-container {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .community-header-wrapper {
+        height: auto;
+    }
+
+    .search-modal {
+        position: absolute;
+        bottom: auto;
+        left: auto;
+    }
+
+    .search-modal__content {
+        width: 420px;
+        top: 20px;
+        right: -3px;
+        min-height: auto;
+        background-color: var(--theme-page-background-color--secondary);
+        border: 1px solid var(--theme-border-color);
+        animation: none;
+    }
+
+    form[class^="SearchInput-module_form__"] {
+        border-bottom: 2px solid var(--theme-border-color);
+        color: var(--theme-border-color);
+    }
+
+    form[class^="SearchInput-module_form__"] .wds-button {
+        --wds-primary-button-background-color: var(--theme-accent-color);
+        --wds-primary-button-background-color--hover: var(--theme-accent-color--hover);
+        --wds-primary-button-label-color: var(--theme-accent-label-color);
+    }
+
+    input[class^="SearchInput-module_input__"] {
+        color: var(--theme-page-text-color);
+        border-left: none;
+        padding: 0;
+    }
+
+    a[class^="SearchResults-module_seeAllResults"] {
+        color: var(--theme-link-color) !important;
+    }
+`;
