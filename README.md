@@ -25,4 +25,5 @@ Clean up the Arena Defense Wiki to make it look cleaner. The benefits:
 
 # Removal 
 
-Simply delete the code you copied into your Global/Local CSS, and save.
+1. Delete the code copied in from `style.css`
+2. Refresh the page without cache.
