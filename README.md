@@ -1,3 +1,5 @@
+# Notice
+I am in the midst of cleaning up, and re-writing some of this code, as it overrides some now important areas that should otherwise be shown. 
 # ArenaCleaner
 Clean up the Arena Defense Wiki to make it look cleaner. The benefits: 
 * No Ads
